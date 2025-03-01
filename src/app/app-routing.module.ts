@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SaasHomeComponent } from './components/pages/saas-home/saas-home.component';
-import { MarketingHomeComponent } from './components/pages/marketing-home/marketing-home.component';
-import { StartupHomeComponent } from './components/pages/startup-home/startup-home.component';
-import { SeoAgencyHomeComponent } from './components/pages/seo-agency-home/seo-agency-home.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { BlogComponent } from './components/pages/blog/blog.component';
@@ -26,9 +23,6 @@ import { AboutComponent } from './components/pages/about/about.component';
 
 const routes: Routes = [
     {path: '', component: SaasHomeComponent},
-    {path: 'marketing', component: MarketingHomeComponent},
-    {path: 'startup', component: StartupHomeComponent},
-    {path: 'seo-agency', component: SeoAgencyHomeComponent},
     {path: 'about', component: AboutComponent},
     {path: 'services', component: ServicesComponent},
     {path: 'services-details', component: ServicesDetailsComponent},

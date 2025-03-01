@@ -7,12 +7,6 @@ import { PreloaderComponent } from './components/layouts/preloader/preloader.com
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { SaasHomeComponent } from './components/pages/saas-home/saas-home.component';
 import { NavbarOneComponent } from './components/layouts/navbar-one/navbar-one.component';
-import { MarketingHomeComponent } from './components/pages/marketing-home/marketing-home.component';
-import { StartupHomeComponent } from './components/pages/startup-home/startup-home.component';
-import { SeoAgencyHomeComponent } from './components/pages/seo-agency-home/seo-agency-home.component';
-import { NavbarTwoComponent } from './components/layouts/navbar-two/navbar-two.component';
-import { NavbarThreeComponent } from './components/layouts/navbar-three/navbar-three.component';
-import { NavbarFourComponent } from './components/layouts/navbar-four/navbar-four.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { ServicesDetailsComponent } from './components/pages/services-details/services-details.component';
@@ -40,12 +34,6 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     FooterComponent,
     SaasHomeComponent,
     NavbarOneComponent,
-    MarketingHomeComponent,
-    StartupHomeComponent,
-    SeoAgencyHomeComponent,
-    NavbarTwoComponent,
-    NavbarThreeComponent,
-    NavbarFourComponent,
     AboutComponent,
     ServicesComponent,
     ServicesDetailsComponent,
